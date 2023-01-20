@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-plugin-graphql-codegen",
+  "version": "3.1.1",
+  "description": "Automate codegen for Gatsby via graphql-codegen",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "prepublishOnly": "tsc -p ./"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "typescript",
+    "graphql",
+    "graphql-codegen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4rekanguok/gatsby-typescript.git"
+  },
+  "author": "Derek Nguyen <derek@penandpillow.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-codegen/core": "^2.6.8",
+    "@graphql-codegen/plugin-helpers": "^2.7.2",
+    "@graphql-codegen/typescript": "^2.8.6",
+    "@graphql-codegen/typescript-operations": "^2.5.11",
+    "@graphql-tools/code-file-loader": "^7.3.15",
+    "@graphql-tools/graphql-file-loader": "^7.0.0",
+    "@graphql-tools/graphql-tag-pluck": "^7.0.0",
+    "@graphql-tools/json-file-loader": "^7.0.0",
+    "@graphql-tools/load": "^7.8.8",
+    "@graphql-tools/url-loader": "^7.0.0",
+    "@graphql-tools/utils": "^8.0.0",
+    "fs-extra": "^10.0.0",
+    "lodash.debounce": "4.0.8"
+  },
+  "peerDependencies": {
+    "gatsby": ">=3.0.0",
+    "graphql": "^16.6.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.0",
+    "@types/lodash.debounce": "^4.0.0",
+    "@types/node": "^15.0.0",
+    "gatsby": "^4.0.0",
+    "graphql": "^16.6.0",
+    "typescript": "^4.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/d4rekanguok/gatsby-typescript/issues"
+  },
+  "homepage": "https://github.com/d4rekanguok/gatsby-typescript#readme"
+}
